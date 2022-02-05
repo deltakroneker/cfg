@@ -1,3 +1,10 @@
+# History in cache directory
+HISTSIZE=15000
+SAVEHIST=10000
+HISTFILE=$HOME/.cache/zsh/.zsh_history
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
+
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 alias config='/usr/bin/git --git-dir=/Users/nikolamilic/.cfg/ --work-tree=/Users/nikolamilic'
 
