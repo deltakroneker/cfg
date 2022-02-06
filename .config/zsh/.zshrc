@@ -4,6 +4,7 @@ SAVEHIST=10000
 HISTFILE=$HOME/.cache/zsh/.zsh_history
 setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY
+export LESSHISTFILE=-
 
 # Colors and prompt
 autoload -Uz colors && colors
