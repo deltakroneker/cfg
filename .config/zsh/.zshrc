@@ -12,6 +12,10 @@ autoload -Uz colors && colors
 # Autosuggestions
 source $HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Completion
+autoload -U compinit && compinit
+source $HOME/.config/zsh/zsh-z/zsh-z.plugin.zsh
+
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 alias config='/usr/bin/git --git-dir=/Users/nikolamilic/.cfg/ --work-tree=/Users/nikolamilic'
 
