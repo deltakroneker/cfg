@@ -1,0 +1,19 @@
+[user]
+	name = deltakroneker
+	email = nikola.milic.ios@gmail.com
+[push]
+	default = current
+[pull]
+	ff = only
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	df = diff
+	dfs = diff --staged
+	logg = log --graph --decorate --oneline --abbrev-commit --all
+	sl = shortlog
+	bla = branch -la
+	f = fetch
+	rpo = remote prune origin
