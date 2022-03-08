@@ -23,7 +23,7 @@ zstyle ':vcs_info:git:*' formats ' %F{yellow}(%b)%F{yellow}%c%u'
 zstyle ':vcs_info:git:*' actionformats ' %F{yellow}(%b)%F{yellow} %F{red}%a %F{red}'
 precmd() { vcs_info }
 setopt prompt_subst
-PROMPT='%(?:%{$fg_bold[magenta]%}❯:%{$fg_bold[magenta]%}❯)'
+PROMPT='%(?:%{$fg_bold[green]%}❯:%{$fg_bold[green]%}❯)'
 PROMPT+=' %{$fg[cyan]%}%~%{$reset_color%}${vcs_info_msg_0_}%{$reset_color%} '
 
 # Autosuggestions
